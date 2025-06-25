@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Windstream Access Portal</title>
+  <style>
+
+  /* Full-page layout */
+  body {
+      margin: 0;
+      height: 100vh;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background:  linear-gradient(to right, #00b5e2 0%, #47d7ac 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .header img {
+      width: 220px;
+      margin-bottom: 20px;
+    }
+
+    .header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: #00b5e2;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      color: black;
+    }
+
+    .container {
+      margin-top: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1200px;
+    }
+
+    .button-link {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(6px);
+      border: 2px solid black;
+      padding: 15px 25px;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+      color: black;
+      text-decoration: none;
+      border-radius: 12px;
+      transition: transform 0.3s ease, background 0.3s ease;
+      width: 260px;
+    }
+
+    .button-link:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: translateY(-5px);
+    }
+    .card {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  max-width: 1200px; /* ← increase from 1000px to 1200px */
+  width: 95%;        /* ← optional: use 95% of screen width on large screens */
+  margin: 40px auto;
+  text-align: center;
+}
+
+
+
+.card .header p {
+  color: #555;
+}
+
+.card .button-link {
+  color: white;
+  border: 2px solid #00b5e2;
+  background-color: #00b5e2;
+ 
+}
+
+.card .button-link:hover {
+  background-color: #16687c;
+  border: 2px solid #16687c;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+
+    @media (max-width: 600px) {
+      .button-link {
+        width: 90%;
+      }
+
+      .header h1 {
+        font-size: 2rem;
+      }
+
+      .header p {
+        font-size: 1rem;
+      }
+
+      .header img {
+        width: 160px;
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+          <img src="./images/windstream-logo.png" alt="Windstream Logo" />
+          <h1 style="margin-top: 0px;">Windstream Access Portal</h1>
+          <p>Quick access to your essential business tools — one click away.</p>
+        </div>
+      
+        <div class="container">
+          <a href="https://windstream.brainier.com/#/object/3028" class="button-link" target="_blank">Training</a>
+          <a href="https://mas.windstream.com/vendorvpn" class="button-link" target="_blank">Cisco Login</a>
+          <a href="https://fcms.windstream.com" class="button-link" target="_blank">FortiClient VPN</a>
+          <a href="http://jobtrac.windstream.com/JobTrac/index.cfm" class="button-link" target="_blank">Job Trac Proper</a>
+          <a href="http://jobtracosp.windstream.com/JobTrac/OSPWorkFlow/index.cfm" class="button-link" target="_blank">Job Trac OSP</a>
+          <a href="https://windstream.cloud.com" class="button-link" target="_blank">GComms</a>
+          <a href="https://Winbroadband.quickbase.com" class="button-link" target="_blank">EPM</a>
+          <a href="https://login.windstream.com/employee/changepassword" class="button-link" target="_blank">CSO Password Change</a>
+          <a href="#" class="button-link">Ping ID</a>
+          <a href="https://data.tnris.org/collection/2679b514-bb7b-409f-97f3-ee3879f34448" class="button-link" target="_blank">Landbase</a>
+          <a href="https://winbroadband.quickbase.com/db/bk2ysagax" class="button-link" target="_blank">EPM Live</a>
+          <a href="https://jira.windstream.com/projects/CCR/summary" class="button-link" target="_blank">JIRA</a>
+        </div>
+      </div>
+      
+</body>
+</html>
